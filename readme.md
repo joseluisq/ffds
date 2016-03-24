@@ -1,10 +1,35 @@
 # FFDS
-> Small script for build a fast Front-End agnostic directory structure.
+> Small script for build a fast Front-End directory structure.
 
-# Structure
-![FFDS](https://cloud.githubusercontent.com/assets/1700322/14026298/39c2353a-f1c0-11e5-833c-5d2266f5bb2c.png)
+## Structure
+```sh
+$ wget -qO- https://git.io/ffds | sh
+.
+├── app
+│   ├── assets
+│   │   ├── fonts
+│   │   │   └── .gitkeep
+│   │   ├── images
+│   │   │   └── .gitkeep
+│   │   ├── scripts
+│   │   │   └── main.js
+│   │   └── styles
+│   │       └── style.css
+│   └── index.html
+├── dist
+├── .editorconfig
+├── .gitattributes
+├── .gitignore
+├── license.md
+├── readme.md
+├── test
+└── .travis.yml
 
-# Usage
+8 directories, 11 files
+
+```
+
+## Usage
 
 ### URL
 ```sh
@@ -24,7 +49,7 @@ $ ffds
 
 ## Contributions
 
-Please, this structure is not mandatory. Feel free to customize `ffds.sh` or send some [pull request](./ffds/pulls) or [issue](./ffds/issues).
+Please, this structure is not mandatory. Feel free to customize `ffds.sh` or send some [pull request](./pulls) or [issue](./issues).
 
 ## License
 
