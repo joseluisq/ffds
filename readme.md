@@ -1,5 +1,5 @@
 # FFDS
-> Small script for build a fast Front-End directory structure.
+> Small script for build a "**F**ast **F**ront-End **D**irectory **S**tructure".
 
 ## Structure
 ```sh
